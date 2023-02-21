@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  border-bottom: 8px solid #087f5b;
+}
+.try {
+  font-size: 44px;
+  line-height: 1.2em;
+}
+.try-1 {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 100px;
+  align-items: center;
+  line-height: 2.5em;
+}
+.bottom-header {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+.container-1 {
+  padding-left: 50px;
+}
+.img-1 {
+  margin-top: 75px;
+}
+.img-2 {
+  margin-top: 3em;
+  width: 300px;
+}
+.bottom-data-container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  column-gap: 100px;
+  justify-content: space-around;
+}
+.bottom-data-container h1 {
+  width: 320px;
+}
+.bottom-data-container p {
+  width: 200px;
+  line-height: 1.5em;
+}
+.bottom-header {
+  margin-left: 4.2em;
+}
+.data-container-3 {
+  display: grid;
+  grid-template-columns: 350px 700px;
+  padding-bottom: 5em;
+  background-color: #087f5b;
+  color: #fff;
+  padding: 24px;
+  margin-top: 2em;
+}
+/* .data-container-3 h1 {
+  margin-top: 3em;
+}
+.data-container-3 p {
+  grid-column: 2/3;
+}
+.data-container h3 {
+  grid-column: -2/1;
+} */
+.span-1 {
+  font-size: 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.data-container-3 {
+  margin-left: 5em;
+}
+.header-last {
+  margin-left: 2.8em;
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
+.last-container {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  justify-content: center;
+  column-gap: 100px;
+  line-height: 2.5em;
+}
+.last-container-1 h1 {
+  font-weight: bold;
+}
+.a {
+  font-weight: bold;
+  padding-right: 10em;
+}
+.last-container a {
+  color: blue;
+}
+footer {
+  margin-top: 2em;
+  margin-left: 4em;
+  font-size: 20px;
+  width: max-content;
+}
+.button:link,
+.button:visited{
+background-color: #087f5b;
+color: #fff;
+text-decoration: none;
+text-transform: uppercase;
+padding: 16px 32px;
+display: inline-block;
+}
+
+.button:hover,.button:active{
+  background-color: #099268;
+}
+.btn:link,.btn:visited{
+  background-color: #087f5b;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 8px 12px;
+}
+.feature-icon{
+  stroke: #087f5b;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 1em;
+}
+.feature-icon-1{
+ stroke: #087f5b;
+ width: 32px;
+ height: 32px;
+ margin-bottom: 1em;
+}
+.feature-icon-2{
+  stroke: #087f5b;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 1em;
+}
